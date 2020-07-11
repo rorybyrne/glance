@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "glance"
+version = "0.0.1"
+description = "Summarizes useful information across groups of Git repositories"
+authors = ["synek <rory@syze.ai>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+glance = "glance.cli.entry:cli"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
