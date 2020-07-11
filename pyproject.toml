@@ -8,6 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.8"
 click = "^7.1.2"
+pygithub = "^1.51"
 
 [tool.poetry.dev-dependencies]
 
